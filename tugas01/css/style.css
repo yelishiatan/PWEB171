@@ -1,0 +1,66 @@
+body
+{
+background-color: #FFCDD2;
+}
+.judul
+{
+text-align: center;
+font-family: verdana;
+color: #FF5252;
+text-shadow: 2px 3px #FFECB3;
+}
+#song
+{
+  text-align: center;
+  font-family: cursive;
+  color: #00897B;
+  text-shadow: 2px 3px #AED581;
+}
+a:link, a:visited, a:active
+{
+width: 200px;
+margin: 2px;
+background-color: #F48FB1;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:hover
+{
+width: 200px;
+margin: 2px;
+background-color: #C2185B;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: underline;
+display: inline-block;
+}
+
+
+img
+{
+width: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#lagu
+{
+text-align: center;
+font-family: Verdana;
+font-size: 18px;
+font-style: italic;
+}
+p {
+color:#283593;
+font-style: normal;
+font-family: cursive;
+font-size: 1px;
+border-style: dotted;
+text-align: center;
+padding:30px;
+
+}

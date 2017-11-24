@@ -1,0 +1,6 @@
++10 tugas selesai
++2 perbedaan h1 judul web dan h1 judul lagu
++2x2= +4 selektor ke-7 dst
++5 penggunaan div
+total= +21
+
