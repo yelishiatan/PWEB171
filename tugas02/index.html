@@ -3,20 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Lagu Anak</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/lagu.js"> </script>
   </head>
+  <script type="text/javascript">
+
+    counter = { 'pelangi':0,
+                'balon':0,
+                'kereta':0
+              }
+
+    function tampilLagu (id) {
+      $(".bloklagu").hide();
+      $('#'+id).show();
+
+      counter [id]++;
+      $('#c'+id).html(counter[id]);
+    }
+  </script>
   <body>
 
   <div class="container">
     <h1 class="judulutama">Koleksi Lagu Anak</h1>
       <div class="sidemenu">
         <ul class="menu">
-          <li><a href="#">Pelangi</a></li>
-          <li><a href="#">Baloku</a></li>
-          <li><a href="#">Naik Kereta</a></li>
-          <li><a href="#">Cicak di Dinding</a></li>
+          <li>
+              <a href="#" onclick="tampilLagu"('pelangi')>Pelangi
+              <span id="cpelangi"></span>
+              </a>
+          </li>
+
+          <li>
+              <a href="#" onclick="tampilLagu"('balon')>Balonku
+              <span id="cbalon"></span>
+              </a>
+          </li>
+
+          <li>
+              <a href="#" onclick="tampilLagu"('kereta')>Naik Kereta
+              <span id="ckereta"></span>
+              </a>
+          </li>
+
+          <li>
+              <a href="#" onclick="tampilLagu"('cicak')>Cicak di Dinding
+                <span id="cCicak"></span>
+              </a>
+          </li>
         </ul>
       </div>
+
+    <div id="info">
+      &lt;&lt; Klik menu untuk melihat lagu
+    </div>
 
       <div class="content">
          <div class="bloklagu" id="pelangi">
@@ -56,6 +96,43 @@
              Kupegang erat-erat <br>
            </p>
          </div>
+
+         <div class="bloklagu" id="kereta">
+         <div class="boxgambar">
+             <img class="gambarlagu" src="img/kereta.jpg" />
+         </div>
+
+         <h1 class="judullagu">Naik Kereta</h1>
+         <p class="tekslagu">
+           Naik kereta api ... tut ... tut ... tut <br>
+           Siapa hendak turutKe Bandung ... <br>
+           Surabaya Bolehlah naik dengan percuma <br>
+           Ayo temanku lekas naik <br>
+           Keretaku tak berhenti lama <br>
+           Cepat kretaku jalan ...tut...tut...tut <br>
+           Banyak penumpang turutK'retaku sudah penat <br>
+           Karena beban terlalu berat <br>
+           Di sinilah ada stasiun <br>
+           Penumpang semua turun <br>
+         </p>
+      </div>
+
+
+      <div class="bloklagu" id="cicak">
+      <div class="boxgambar">
+          <img class="gambarlagu" src="img/Cicak.jpg" />
+      </div>
+
+      <h1 class="judullagu">Cicak Di Dinding</h1>
+      <p class="tekslagu">
+        Cicak-cicak di dinding <br>
+        Diam diam merayap <br>
+        Datang seekor nyamuk <br>
+        Hap ... <br>
+        lalu ditangkap <br>
+      </p>
+   </div>
+
        <div id="copyright">
             didesain oleh : Yelishia Tandilisan &copy; 2017
        </div>

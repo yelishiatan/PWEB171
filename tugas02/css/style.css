@@ -58,6 +58,7 @@ body
   padding: 15px;
   background-color: #33B5E5;
   box-shadow: 5px 5px #
+  font-family: 'Lobster';
 }
 
 .bloklagu
@@ -70,7 +71,7 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 20px;
 margin-bottom: 20px;
-display: block;
+display: none;
 overflow: hidden;
 font-weight: bold;
 text-align: center;
@@ -94,6 +95,7 @@ display: block;
 {
 color: #7f2ed1;
 text-shadow: 2px 2px #343537;
+font-family: 'Indie Flower';
 }
 #copyright
 {
@@ -120,4 +122,18 @@ margin-left: auto;
 {
 width: 95%;
 }
+}
+.tekslagu
+{
+  font-family: 'Indie Flower';
+}
+
+#info
+{
+  color: #ff00ff
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: auto;
+  width: 600px;
+  padding: 10px;
 }
