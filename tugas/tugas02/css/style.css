@@ -1,0 +1,132 @@
+body {
+  background-color: #E3F2FD;
+  font-family: Verdana; }
+
+/* layout */
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.sidemenu {
+  position: relative;
+  width: 25%;
+  float: left; }
+
+.content {
+  width: 75%;
+  margin-left: 25%; }
+
+  /* menu */
+
+.menu {
+  width: 100%;
+  margin-left: -40px; }
+
+.menu li {
+  list-style: none;
+  margin: 6px;
+  line-height:  40px;
+  background-color: #64B5F6;
+  text-align: center;
+  font-weight: bold;
+  box-shadow:  3px 3px #1E88E5;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+ }
+
+.menu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  box-shadow:  3px 3px #1E88E5;
+  display: block;
+  font-family: 'Indie Flower';
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; }
+
+.menu li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Indie Flower';
+  background-color:#0D47A1;
+  box-shadow: 5px 5px #343537;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; }
+
+  /* content */
+.judulutama {
+  padding: 15px;
+  background-color:#42A5F5;
+  font-family: 'Lobster';
+  border-radius: 15px;
+  box-shadow: 5px 5px #B2DFDB;
+  color: #ffffff;
+  text-align: center;
+  text-shadow:2px 2px #BBDEFB;}
+
+  .bloklagu {
+    width: 600px;
+    box-shadow: 5px 5px #5b6783;
+    background-color: #BBDEFB;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px; }
+
+  .boxgambar {
+    width: 100%;
+    height: 300px;
+    overflow: hidden; }
+
+.gambarlagu {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  display: block; }
+
+.judullagu {
+  color: #009688;
+  font-family: 'Indie Flower';
+  text-shadow: 2px 2px #343537; }
+
+#copyright {
+  position: sticky;
+  width: 100%;
+  line-height: 30px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 10px; }
+
+/* responsive layout */
+@media screen and (max-width: 720px) {
+
+.sidemenu   {
+    width: 100%;   }
+
+.content   {
+  width: 100%;
+  margin-left: auto;   }
+
+.bloklagu   {
+  width: 95%;   }
+
+}
+.tekslagu
+{
+  font-family: 'Indie Flower';
+}

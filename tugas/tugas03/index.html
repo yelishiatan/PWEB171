@@ -11,7 +11,9 @@
 
     counter = { 'pelangi':0,
                 'balon':0,
-                'kereta':0
+                'kereta':0,
+                'cicak':0,
+                'kebun':0,
               }
 
     function tampilLagu (id) {
@@ -47,12 +49,20 @@
           </li>
 
           <li>
-              <a href="#" onclick="tampilLagu('cicak')">Cicak di Dinding
+              <a href="#" onclick="tampilLagu('Cicak')">Cicak di Dinding
                 <span id="cCicak"></span>
               </a>
           </li>
+
+          <li>
+              <a href="#" onclick="tampilLagu('kebun')">Kebunku
+              <span id="ckebun"></span>
+              </a>
+          </li>
+
         </ul>
       </div>
+
 
     <div id="info">
       &lt;&lt; Klik menu untuk melihat lagu
@@ -118,7 +128,7 @@
       </div>
 
 
-      <div class="bloklagu" id="cicak">
+      <div class="bloklagu" id="Cicak">
       <div class="boxgambar">
           <img class="gambarlagu" src="img/Cicak.jpg" />
       </div>
@@ -133,6 +143,24 @@
       </p>
    </div>
 
+   <div class="bloklagu" id="kebun">
+   <div class="boxgambar">
+
+       <img class="gambarlagu" src="img/kebun.jpg" />
+   </div>
+
+   <h1 class="judullagu">Kebunku</h1>
+   <p class="tekslagu">
+     Lihat kebunku <br>
+     penuh dengan bunga <br>
+     Ada yang putih, <br>
+     dan ada yang merah <br>
+     Setiap hari <br>
+     kusiram semua <br>
+     mawar melati, <br>
+     semuanya indah! <br>
+   </p>
+</div>
 
       </div>
       <div id="copyright">

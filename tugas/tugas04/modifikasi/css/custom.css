@@ -1,0 +1,30 @@
+#sideNav {
+  background-color: #009688 !important;
+}
+body {
+  color: #009688;
+  background-color: #fff;
+}
+#page-top {
+  color: #009688;
+}
+.mb-0 {
+  color :#004D40;
+  text-shadow: 3px 3px #B2DFDB;
+  font-family: fantasy;
+
+}
+.mb-5 {
+  color: #01579B;
+  text-shadow: 2px 2px #B2EBF2;
+  font-family: fantasy;
+
+}
+.gambarlagu {
+  width: 300px;
+  height :  200px;
+  align-items: center;
+}
+.navbar-nav {
+  font-family: verdana;
+}
