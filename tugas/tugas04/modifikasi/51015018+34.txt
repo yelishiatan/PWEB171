@@ -1,0 +1,4 @@
++10 tugas selesai
++5 tampilan template
++5 custom css
++2x7 = +14 untuk setiap selektor dalam custom style
